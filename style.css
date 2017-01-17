@@ -4,7 +4,6 @@
 	font-family: sans-serif;
 }
 
-
 body{
 	background-color: #F7F7F7;
 	padding: 25px;
@@ -12,6 +11,17 @@ body{
 
 ul{
 	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #236B8E;
+}
+
+img{
+	max-width: 100%;
+	width: 200px;
+	height: 130px;
 }
 
 #main-container{
@@ -62,7 +72,90 @@ nav ul li{
 	padding-left: 5px;
 }
 
+/*BODY CONTENT*/
+
+.content{
+	margin-top: 20px;
+	overflow: hidden;
+}
 
 .post{
-	margin-top: 10px;
+	width: 70%;
+	border-right: solid 2px #EDEDED;
+	float: left;
+	padding-right: 20px;
+}
+
+.individual-post{
+	padding: 20px 0;
+	border-bottom: solid 2px #EDEDED; 
+}
+
+.thumbnail{
+	width: 200px;
+	border: solid 1px #EDEDED;
+	padding: 5px;
+	margin-right: 20px;
+	float: left;
+	display: inline-block;
+}
+
+.preview{
+	display: block;
+}
+
+.subtitle{
+	background-color: #236B8E;
+	text-align: center;
+	color: #FFF;
+	padding: 5px 0;
+}
+
+.title{
+	font-size: 170%;
+	padding-bottom: 10px;
+}
+
+.detail{
+	display: block;
+	font-size: 90%;
+}
+
+.date-comment{
+	border: solid 1px #EDEDED;
+	border-left: none;
+	border-right: none;
+	overflow: hidden;
+	padding: 5px 0; 
+}
+
+.date{
+	float: left;
+}
+
+.comment{
+	float: right;
+}
+
+.topic-author{
+	overflow: hidden;
+	padding: 5px 0;
+	border-bottom: solid 1px #EDEDED;
+}
+
+.author{
+	float: right;
+}
+
+.topic{
+	float: left;
+}
+
+.paragraph-preview{
+	padding: 5px;
+}
+
+.ads{
+	width: 20%;
+	float: left;
 }
