@@ -18,12 +18,6 @@ a{
 	color: #236B8E;
 }
 
-img{
-	max-width: 100%;
-	width: 200px;
-	height: 130px;
-}
-
 #main-container{
 	background-color: #FFF;
 	padding: 25px;
@@ -41,8 +35,14 @@ header{
 
 nav ul li{
 	float: left;
-	padding: 15px 25px;
+	padding: 5px 10px;
 	font-size: 90%;
+	margin: 5px 10px;
+}
+
+nav ul li:hover{
+	color: #FFF;
+	background-color: #236B8E;
 }
 
 #search{
@@ -91,6 +91,8 @@ nav ul li{
 	border-bottom: solid 2px #EDEDED; 
 }
 
+/*Image*/
+
 .thumbnail{
 	width: 200px;
 	border: solid 1px #EDEDED;
@@ -100,8 +102,11 @@ nav ul li{
 	display: inline-block;
 }
 
-.preview{
+.img-preview{
 	display: block;
+	max-width: 100%;
+	width: 200px;
+	height: 130px;
 }
 
 .subtitle{
@@ -110,6 +115,8 @@ nav ul li{
 	color: #FFF;
 	padding: 5px 0;
 }
+
+/*Post details*/
 
 .title{
 	font-size: 170%;
@@ -155,7 +162,17 @@ nav ul li{
 	padding: 5px;
 }
 
+/*ADS*/
+
 .ads{
 	width: 20%;
 	float: left;
+	padding: 0 15px;
+}
+
+.ads-img{
+	margin: 0 auto;
+	max-width: 500px;
+	width: auto;
+	height: auto;
 }
