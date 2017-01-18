@@ -176,3 +176,39 @@ nav ul li:hover{
 	width: auto;
 	height: auto;
 }
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 1240px){
+	.title{
+		font-size: 120%;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.post{
+		width: 100%;
+	}
+	.ads{
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 770px){
+	.title{
+		font-size: 50%;
+	}
+	.thumbnail{
+		width: 100px;
+	}
+	.img-preview{
+		width: 100px;
+		height: 65px;
+	}
+	.subtitle{
+		font-size: 70%;
+	}
+	.detail{
+		font-size: 50%;
+	}
+}
