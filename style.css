@@ -33,6 +33,13 @@ header{
 	border-bottom: solid 2px #EDEDED;
 }
 
+#menu-icon{
+	background: url(nav.png) center;
+	width: 40px;
+	height: 40px;
+	display: none;
+}
+
 nav ul li{
 	float: left;
 	padding: 5px 10px;
@@ -43,6 +50,25 @@ nav ul li{
 nav ul li:hover{
 	color: #FFF;
 	background-color: #236B8E;
+}
+
+nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #236B8E;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul ul li{
+	float: none;
+	position: relative;
+}
+
+nav ul ul li:hover{
+	background-color: #35586C;
 }
 
 #search{
@@ -211,4 +237,19 @@ nav ul li:hover{
 	.detail{
 		font-size: 50%;
 	}
+}
+
+/*Responsive Navbar*/
+
+@media screen and (max-width: 1200px){
+	nav ul{
+		display: none;
+	}
+	#search{
+		display: none;
+	}
+	#menu-icon{
+		display: inline-block;
+	}
+
 }
