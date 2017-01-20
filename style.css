@@ -217,6 +217,11 @@ nav ul ul li:hover{
 	}
 	.ads{
 		padding-top: 20px;
+		width: 100%;
+		float: left;
+	}
+	.ads-img{
+		max-width: 40%;
 	}
 }
 
