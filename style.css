@@ -34,10 +34,15 @@ header{
 }
 
 #menu-icon{
-	background: url(nav.png) center;
-	width: 40px;
-	height: 40px;
+	width: 70px;
+	height: 70px;
 	display: none;
+	float: right;
+}
+
+#menu-icon img{
+	width: 100%;
+	height: auto;
 }
 
 nav ul li{
@@ -241,6 +246,33 @@ nav ul ul li:hover{
 	}
 	.detail{
 		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.title{
+		font-size: 35%;
+	}
+	.thumbnail{
+		width: 90px;
+	}
+	.img-preview{
+		width: 90px;
+		height: 55px;
+	}
+	.subtitle{
+		font-size: 50%;
+	}
+	.detail{
+		font-size: 35%;
+	}
+	#menu-icon{
+		width: 25px;
+		height: 25px;
+	}
+	#menu-icon img{
+		width: 25px;
+		height: 25px;
 	}
 }
 
