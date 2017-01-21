@@ -224,6 +224,7 @@ nav ul ul li:hover{
 		padding-top: 20px;
 		width: 100%;
 		float: left;
+		left: -50%;
 	}
 	.ads-img{
 		max-width: 40%;
@@ -231,6 +232,9 @@ nav ul ul li:hover{
 }
 
 @media screen and (max-width: 770px){
+	body{
+		padding: 10px;
+	}
 	.title{
 		font-size: 50%;
 	}
@@ -246,6 +250,9 @@ nav ul ul li:hover{
 	}
 	.detail{
 		font-size: 50%;
+	}
+	.detail div{
+		padding: 2px;
 	}
 }
 
